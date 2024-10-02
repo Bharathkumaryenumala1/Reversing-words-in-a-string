@@ -1,0 +1,9 @@
+def reverse(s):#creating a function with name reverse
+    k=s.split(".")#iam using splitmethod by using split splitmethod
+    #['i','like','the','pythonprogram']
+    m=k[::-1]#['pythonprogram','the','like','i']
+    output=".".join(m)
+    return output
+s=input("Enter the string:")
+print(reverse(s))
+
